@@ -2,33 +2,6 @@
 
 This project serves as a collection of Go programming language examples and exercises covering various topics.
 
-## Table of Contents
-
-- [Array](array)
-- [Channels](channels)
-- [Constants](consts)
-- [Data Structure](data-structure)
-- [Decision Structure](decision-structure)
-- [Error Handling](error-handling)
-- [For Loop](for-loop)
-- [Go Routines](go-routines)
-- [If Else](if-else)
-- [Interfaces](interfaces)
-- [JSON](json)
-- [Linked List](linkList)
-- [Maps](maps)
-- [Pointers](pointers)
-- [Queues](queues)
-- [Receive Struct Function](rec-stru-func)
-- [Recursion](recursion)
-- [Slices](slices)
-- [Stack](stack)
-- [Struct](struct)
-- [Switch](switch)
-- [Testing](testing)
-- [Values](values)
-- [Variables](variables)
-
 ## Getting Started
 
 If you're looking to practice Go programming, you're in the right place! This project serves as a comprehensive collection of Go language examples and exercises covering a wide range of topics. Each folder corresponds to a specific Go concept, such as arrays, channels, error handling, and more.
