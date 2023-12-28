@@ -6,17 +6,17 @@ import (
 )
 
 type User struct {
-	FirstName string
-	LastName string
+	FirstName   string
+	LastName    string
 	PhoneNumber string
-	Age int
-	BirthDate time.Time
+	Age         int
+	BirthDate   time.Time
 }
 
 func main() {
-	user := User {
-		FirstName: "Aqib",
-		LastName: "Shah",
+	user := User{
+		FirstName:   "Aqib",
+		LastName:    "Shah",
 		PhoneNumber: "0090909009",
 	}
 
