@@ -8,11 +8,11 @@ type node struct {
 }
 
 type linkedList struct {
-	head *node
+	head   *node
 	length int
 }
 
-func (l *linkedList) prepend (n *node) {
+func (l *linkedList) prepend(n *node) {
 	second := l.head
 	l.head = n
 	l.head.next = second
@@ -53,12 +53,12 @@ func (l linkedList) printListData() {
 
 func main() {
 	myList := linkedList{}
-	node1 := &node{data:48}
-	node2 := &node{data:18}
-	node3 := &node{data:16}
-	node4 := &node{data:11}
-	node5 := &node{data:7}
-	node6 := &node{data:2}
+	node1 := &node{data: 48}
+	node2 := &node{data: 18}
+	node3 := &node{data: 16}
+	node4 := &node{data: 11}
+	node5 := &node{data: 7}
+	node6 := &node{data: 2}
 	myList.prepend(node1)
 	myList.prepend(node2)
 	myList.prepend(node3)
