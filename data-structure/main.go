@@ -7,16 +7,16 @@ import (
 
 type User struct {
 	FirstName string
-	LastName string
+	LastName  string
 }
 
 func main() {
 	// Maps
 	myMap := make(map[string]User)
 
-	me := User {
+	me := User{
 		FirstName: "Aqib",
-		LastName: "Shah",
+		LastName:  "Shah",
 	}
 
 	myMap["me"] = me
@@ -35,7 +35,7 @@ func main() {
 	log.Println(mySlice)
 
 	// Shorthand for slices
-	numbers:= []int{1,2,3,4,5,6,7,8,9,10}
+	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	log.Println(numbers)
 
 	// Print first two elements of slices, starting at first position
