@@ -15,7 +15,7 @@ func (s *Stack) Push(item interface{}) {
 // Pop removes and returns the top element from the stack.
 func (s *Stack) Pop() interface{} {
 	if len(s.items) == 0 {
-		return nil 
+		return nil
 	}
 
 	top := s.items[len(s.items)-1]
