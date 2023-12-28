@@ -17,7 +17,7 @@ func main() {
 
 	myVar.FirstName = "Aqib"
 
-	myVar2 := myStruct {
+	myVar2 := myStruct{
 		FirstName: "Asad",
 	}
 	fmt.Println("myVar is set to", myVar.printFirstName())
