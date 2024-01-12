@@ -14,7 +14,7 @@ Make sure you have Go installed on your machine. If not, you can download and in
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/aqibcs/Golang-Practice.git
+    git clone git@github.com:aqibcs/Golang-Practice.git
     ```
 
 2. **Navigate to the Concept of Your Choice:**
